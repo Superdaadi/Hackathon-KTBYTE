@@ -1,1 +1,30 @@
-<p>tracker works!</p>
+<div class="full">
+    <div class="border">
+        <div class="component">
+            <div class="headline">
+                Tasks für heute
+            </div>
+            <div class="container">
+                <div class="tasks">
+                    <div class="select-cath">
+                        @for (task of tasks; track $index) {
+                            <div (click)="setType($index)" class="cathegory">
+                                {{task.heading}}
+                            </div>
+                        }
+                    </div>
+
+                    @for (task of tasks[type].tasks; track $index) {
+                        {{task}}
+                    }
+
+                </div>
+
+
+                <div class="diagram">
+                    dia
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
