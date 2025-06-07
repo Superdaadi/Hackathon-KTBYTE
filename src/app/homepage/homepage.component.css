@@ -1,0 +1,111 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+}
+.image img {
+    border-radius: 70px;
+    height: 40vh;
+}
+
+.logo img {
+    height: 40vh;
+}
+
+.ziel {
+    background-color:var(--f2) ;
+    color: var(f1);
+    margin: 50px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.zielHead{
+    font-size: 42px;
+}
+
+.zielText{
+    font-size: 26px;
+}
+
+.funktion {
+    background-color:var(--f2) ;
+    margin: 50px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.funktionHead{
+    font-size: 42px;
+}
+
+.funktionText1{
+    font-size: 26px;
+    margin-top: 20px;
+}
+.beispiel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    background-color:var(--f3) ;
+    color: var(f1);
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    flex-direction: row;
+    width: 500px;
+    position: relative;
+}
+.beispielText {
+    font-size: 26px;
+}
+.beispielTickbox{
+    background-color: var(--f4);
+    width: 40px;
+    height: 40px;
+}
+.funktionText2{
+    font-size: 26px;
+    margin-top: 50px;
+}
+.funktionText3{
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.nagel {
+    position: absolute;
+    background-color: var(--f4);
+    height: 8px;
+    width: 8px;
+    transform:rotate(45deg);
+    
+}
+.beispielNagelLO {
+    left: 20px;
+    top: 15px;
+}
+.beispielNagelLU {
+    left: 20px;
+    bottom: 15px;
+}
+.beispielNagelRO {
+    right: 20px;
+    top: 15px;
+}
+.beispielNagelRU {
+    right: 20px;
+    bottom: 15px;
+}
