@@ -15,7 +15,18 @@
                     </div>
 
                     @for (task of tasks[type].tasks; track $index) {
-                        {{task}}
+                        <div class="beispiel">
+                            <div class="container">
+                                <div class="beispielText">
+                                    {{task}}
+                                </div>
+                                <div class="beispielTickbox"></div>
+                                <div class="nagel beispielNagelLO"></div>
+                                <div class="nagel beispielNagelLU"></div>
+                                <div class="nagel beispielNagelRO"></div>
+                                <div class="nagel beispielNagelRU"></div>
+                            </div>
+                        </div>
                     }
 
                 </div>

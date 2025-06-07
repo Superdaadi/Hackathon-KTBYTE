@@ -9,18 +9,13 @@ import { Component } from '@angular/core';
 })
 export class TrackerComponent {
 
-  protected taskHeadings: string[] = [
-    "Energie",
-    "Mobilität",
-    "Konsum",
-    "Ernährung",
-    "Wasserverbrauch",
-    "CleanUp"
-  ];
 
   protected tasks = [
-    { heading: 'Energie', tasks: ['Task 1', 'Task 2', 'Task 3'] },
-    { heading: 'Mobilität', tasks: ['BTask 1', 'BTask 2', 'BTask 3'] }
+    { heading: 'Energie', tasks: ['Stelle deien Monitor auf Energiesparmodus', 'Verzichte heute auf den Trockner'] },
+    { heading: 'Mobilität', tasks: ['Fahre heute alle Wege unter 3km mit dem Fahrrad', 'Nutze heute den ÖPNV anstelle des Autos', 'Plane für nächste woche eine Fahrgemeinschaft'] },
+    { heading: 'Konsum', tasks: ['Kaufe heute nichts, dass du nicht wirklich brauchst', 'Verzichte heute auf alle Einwegproduckte'] },
+    { heading: 'Wasser', tasks: ['Dusche heute maximal 3 Minuten lang', 'Starte die Waschmaschine nur vollbeladen'] },
+    { heading: 'Clean-up', tasks: ['Sammle heute 5 Stücke Müll in der Natur auf', 'Sortiere deine Altbatterien und Elektroschrott - bringe sie zur Sammelstelle'] },
   ]
 
   protected type: number = 0
