@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
     height: 40vh;
+    margin-top: 50px;
 }
 .image img {
     border-radius: 70px;
@@ -33,6 +34,7 @@
 }
 
 .funktion {
+    position: relative;
     background-color:var(--f2) ;
     margin: 50px;
     text-align: left;
@@ -82,7 +84,7 @@
 }
 .funktionText3{
     font-size: 26px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .nagel {
@@ -108,4 +110,106 @@
 .beispielNagelRU {
     right: 20px;
     bottom: 15px;
+}
+
+.grau{
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.534);
+    border-radius: 30px;
+
+}
+
+.about {
+    background-color:var(--f2) ;
+    color: var(f1);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.aboutHead{
+    font-size: 42px;
+}
+
+.aboutText{
+    font-size: 26px;
+}
+
+.dd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.david {
+    margin-left: 50px;
+    width: calc(50% - 100px);
+    border-radius: 70px;
+    background-color:var(--f2) ;
+    color: var(f1);
+    text-align: left;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.davidHead{
+    font-size: 42px;
+}
+
+.davidText{
+    font-size: 26px;
+}
+
+.daniel {
+    margin-right: 50px;
+    width: calc(50% - 100px);
+    border-radius: 70px;
+    background-color:var(--f2) ;
+    color: var(f1);
+    text-align: left;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.danielHead{
+    font-size: 42px;
+}
+
+.danielText{
+    font-size: 26px;
+}
+
+.explaination {
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.705);
+    height: 80px;
+    width: 300px;
+    left: 250px;
+    top: 50px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+}
+
+.maus {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 200px;
+    top: 30px;
 }

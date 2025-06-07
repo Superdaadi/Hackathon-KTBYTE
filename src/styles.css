@@ -8,3 +8,7 @@
   --f3: #665B32;
   --f4: #2A2100;
 }
+
+html, body {
+  background-color: var(--f1);
+}
