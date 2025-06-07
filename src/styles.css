@@ -3,4 +3,12 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  --f1: #D2E2B0;
+  --f2: #7E9962;
+  --f3: #665B32;
+  --f4: #2A2100;
+}
+p {
+  margin: 0px;
+  padding: 0px;
 }
