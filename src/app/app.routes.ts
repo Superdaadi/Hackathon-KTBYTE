@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { TrackerComponent } from './tracker/tracker.component';
 
 export const routes: Routes = [
     {path: '', component: HomepageComponent},
-    {path:'navbar', component: NavbarComponent},
+    {path:'tracker', component: TrackerComponent},
 ];
