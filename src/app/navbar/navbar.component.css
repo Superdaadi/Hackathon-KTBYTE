@@ -1,0 +1,42 @@
+.full {
+    width: 100dvw;
+    background-color: var(--f2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.full div{
+    margin: 6px;
+}
+
+.logoImg img {
+    width: 45px;
+}
+
+.navigation {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-el {
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-el:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    background-color: var(--f4);
+    color: var(--f1);
+    height: 44px;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
