@@ -48,7 +48,7 @@ export class TrackerComponent {
   
   mouseEnter(id: number) {
     this.isHovering = true;
-    this.id = id - 1
+    this.id = id -  1
   }
 
   mouseLeave() {
