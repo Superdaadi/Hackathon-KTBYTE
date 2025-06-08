@@ -21,6 +21,8 @@ export class TrackerComponent {
   public mouseX: number = 0;
   public mouseY: number = 0;
 
+  public xpWidth: number = 80;
+
   public isHovering = false;
 
   @ViewChild('trackArea') trackArea!: ElementRef;

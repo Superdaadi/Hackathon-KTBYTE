@@ -247,3 +247,42 @@
 }
 
 
+.overviewContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-top: 2px solid black;
+    margin-top: 300px;
+}
+
+
+.containerXp {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12px;
+    background-color: var(--f4);
+    border-radius: 8px;
+    padding: 8px;
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 12px 4px rgba(0, 0, 0, 0.3);
+}
+
+.xpBar {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-radius: 8px;
+    background-color: var(--f2);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.xpBar > p {
+    margin-right: 8px;
+}
+
+
