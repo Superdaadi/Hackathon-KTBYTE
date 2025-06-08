@@ -42,7 +42,6 @@ export class LangService {
   public saveToLocal(id: number) {
     const key = id.toString();
     const valueFromLocal = localStorage.getItem(key);
-    console.log(valueFromLocal);
 
     if (valueFromLocal === "true") {
       localStorage.setItem(key, "false");

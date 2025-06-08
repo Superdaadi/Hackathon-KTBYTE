@@ -50,17 +50,25 @@
 .image img {
     border-radius: 70px;
     height: 20rem;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.316);
 }
 
 .logo img {
     height: 20rem;
 }
 
+
+
+
+
+
 .ziel {
     box-shadow: 0px 0px 10px 2px black;
     background-color:var(--f2) ;
     color: var(f1);
-    margin: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: left;
     padding: 20px;
     border-radius: 30px;
@@ -72,106 +80,57 @@
 }
 
 .zielText{
-    font-size: 26px;
+    font-size: 22px;
 }
+
+
+
+
+
+
+
 
 .funktion {
     box-shadow: 0px 0px 10px 2px black;
     position: relative;
-    background-color:var(--f2) ;
-    margin: 50px;
+    background-color:var(--f2);
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: left;
     padding: 20px;
     border-radius: 30px;
     color: white;
 }
-
 .funktionHead{
     font-size: 42px;
 }
-
 .funktionText1{
-    font-size: 26px;
+    font-size: 22px;
     margin-top: 20px;
 }
-.beispiel {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px;
-}
-.container {
-    display: flex;
-    background-color:var(--f3) ;
-    color: var(f1);
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    padding: 20px;
-    border-radius: 30px;
-    flex-direction: row;
-    width: 500px;
-    position: relative;
-}
-.beispielText {
-    font-size: 26px;
-}
-.beispielTickbox{
-    background-color: var(--f4);
-    width: 40px;
-    height: 40px;
-}
+
 .funktionText2{
-    font-size: 26px;
+    font-size: 22px;
     margin-top: 50px;
 }
 .funktionText3{
-    font-size: 26px;
-    margin-top: 100px;
+    font-size: 22px;
+    margin-top: 130px;
 }
 
-.nagel {
-    position: absolute;
-    background-color: var(--f4);
-    height: 8px;
-    width: 8px;
-    transform:rotate(45deg);
-    
-}
-.beispielNagelLO {
-    left: 20px;
-    top: 15px;
-}
-.beispielNagelLU {
-    left: 20px;
-    bottom: 15px;
-}
-.beispielNagelRO {
-    right: 20px;
-    top: 15px;
-}
-.beispielNagelRU {
-    right: 20px;
-    bottom: 15px;
-}
 
-.grau{
-    position:absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.534);
-    border-radius: 30px;
 
-}
+
+
 
 .about {
     box-shadow: 0px 0px 10px 2px black;
     background-color:var(--f2) ;
     color: var(f1);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
     text-align: left;
     padding: 20px;
     border-radius: 30px;
@@ -183,14 +142,15 @@
 }
 
 .aboutText{
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .dd {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
+    margin: 20px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -198,8 +158,7 @@
 
 .david {
     box-shadow: 0px 0px 10px 2px black;
-    margin-left: 50px;
-    width: calc(50% - 100px);
+    width: calc(50% - 55px);
     border-radius: 70px;
     background-color:var(--f2) ;
     color: var(f1);
@@ -209,18 +168,17 @@
     color: white;
 }
 
-.davidHead{
+.dHead{
     font-size: 42px;
 }
 
-.davidText{
-    font-size: 26px;
+.dText{
+    font-size: 22px;
 }
 
 .daniel {
     box-shadow: 0px 0px 10px 2px black;
-    margin-right: 50px;
-    width: calc(50% - 100px);
+    width: calc(50% - 55px);
     border-radius: 70px;
     background-color:var(--f2) ;
     color: var(f1);
@@ -230,26 +188,112 @@
     color: white;
 }
 
-.danielHead{
-    font-size: 42px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.taskContainer-Parent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
 }
 
-.danielText{
-    font-size: 26px;
+.taskContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12px;
+    background-color: var(--f3);
+    border-radius: 8px;
+    padding: 8px;
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 12px 4px rgba(0, 0, 0, 0.3);
+    width: 30rem;
 }
+.taskText {
+    width: 80%;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.taskTickbox{
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 12px 4px rgba(255, 255, 255, 0.15);
+    background-color: var(--f4);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.nagel {
+    position: absolute;
+    background-color: var(--f4);
+    height: 6px;
+    width: 6px;
+    transform:rotate(45deg); 
+}
+.beispielNagelLO {
+    left: 10px;
+    top: 10px;
+}
+.beispielNagelLU {
+    left: 10px;
+    bottom: 10px;
+}
+.beispielNagelRO {
+    right: 10px;
+    top: 10px;
+}
+.beispielNagelRU {
+    right: 10px;
+    bottom: 10px;
+}
+
+
 
 .explaination {
     position: absolute;
     padding: 10px;
-    background-color: rgba(128, 128, 128, 0.705);
+    padding-left: 16px;
     height: 80px;
     width: 300px;
     left: 250px;
     top: 50px;
     border-radius: 20px;
     text-align: left;
-    font-size: 24px;
+    font-size: 22px;
     color: white;
+
+    width: 360px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.8);
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.219);
 }
 
 .maus {
@@ -258,4 +302,16 @@
     height: 40px;
     left: 200px;
     top: 30px;
+}
+
+
+
+.gray{
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 8px; 
 }

@@ -18,6 +18,11 @@ export class TrackerComponent {
   protected id: number = 0
 
   protected type: number = 0
+
+  protected typePlus: number = 0
+  protected theValueOfTheValues: number = 0
+  typeXZehn: number = 0 
+
   public mouseX: number = 0;
   public mouseY: number = 0;
 
@@ -33,10 +38,17 @@ export class TrackerComponent {
 
   ngOnInit() {
     this.loadGoogleCharts();
+    this.setType(0)
   }
 
   protected setType(type: number) {
     this.type = type
+    this.typePlus = this.type + 1
+  }
+
+  protected typeRefresh() {
+    this.typeXZehn = this.type * 10
+    this.theValueOfTheValues = this.id - this.typeXZehn
   }
 
 
@@ -50,6 +62,7 @@ export class TrackerComponent {
   mouseEnter(id: number) {
     this.isHovering = true;
     this.id = id -  1
+    this.typeRefresh()
   }
 
   mouseLeave() {
