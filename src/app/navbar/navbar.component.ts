@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+
 import { LangService } from '../../service/lang.service';
 
 @Component({
@@ -22,7 +23,6 @@ export class NavbarComponent {
   }
 
   navigateHome() {
-    console.log('Navigating to home');
     this.router.navigate(['/']);
   }
 

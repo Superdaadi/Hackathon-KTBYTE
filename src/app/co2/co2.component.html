@@ -4,29 +4,32 @@
             
             <h1>{{langService.content[12]}}</h1>
             
-            <div class="abc">
-                <label for="distance">{{langService.content[13]}}</label>
-                <input [(ngModel)]="distance" type="number" id="distance" placeholder="z.B. 50" />
-                <button (click)="calculateCO2Emission()" >{{langService.content[14]}}</button>
-                <p id="result"></p>
-            </div>
-
-            <div class="abcd">
-                <label for="vehicle">{{langService.content[15]}}</label>
-                <select [(ngModel)]="vehicle" id="vehicle">
-                    <option value="diesel">Diesel</option>
-                    <option value="benzin">{{langService.content[16]}}</option>
-                </select>
-            </div>
-            <div class="cba">
-                <label>{{langService.content[11]}}
-                </label>
-                    
-                <div class="output">
-                    <p calculateCO2Emission>{{result}} kg</p>
-                    
+            <div class="distance">
+                <div class="distance_sub">
+                    <label for="distance">{{langService.content[13]}}</label>
+                    <input [(ngModel)]="distance" min="0" type="number" id="distance" placeholder="z.B. 50" />
+                    <button (click)="calculateCO2Emission()" >{{langService.content[14]}}</button>
                 </div>
+            </div>
 
+            <div class="distance">
+                <div class="distance_sub">
+                    <label for="vehicle">{{langService.content[15]}}</label>
+                    <select [(ngModel)]="vehicle" id="vehicle">
+                        <option value="diesel">Diesel</option>
+                        <option value="benzin">{{langService.content[16]}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="distance u">
+                <div class="distance_sub">
+                    <label>{{langService.content[11]}}
+                    </label>
+                        
+                    <div class="output">
+                        <p calculateCO2Emission>{{result}} kg</p>
+                    </div>
+                </div>
 
             </div>
         </div>

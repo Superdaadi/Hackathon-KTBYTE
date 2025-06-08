@@ -30,6 +30,22 @@ export class TrackerComponent {
 
   public isHovering = false;
 
+  
+
+  nutrition: number = 0
+  mobility: number = 0
+  energy: number = 0
+  waste: number = 0
+  nature: number = 0
+
+  total: number = 0
+  totalCalc: number = 0
+
+
+
+
+
+
   @ViewChild('trackArea') trackArea!: ElementRef;
 
 
@@ -49,6 +65,7 @@ export class TrackerComponent {
   protected typeRefresh() {
     this.typeXZehn = this.type * 10
     this.theValueOfTheValues = this.id - this.typeXZehn
+    this.totalCalc = this.total * 2
   }
 
 
@@ -78,6 +95,7 @@ export class TrackerComponent {
     this.energy = 0
     this.waste = 0
     this.nature = 0
+    this.total = 0
     this.loadGoogleCharts()
   }
 
@@ -89,20 +107,12 @@ export class TrackerComponent {
 
 
 
-
-  nutrition: number = 0
-  mobility: number = 0
-  energy: number = 0
-  waste: number = 0
-  nature: number = 0
-
-
   getDataFromLocal(key: number) {
-    console.log(key + " übergeben")
     if(key == 1) {
       for (let i = 0; i < 11; i++) {
         if(this.getOneItem(i)) {
           this.nutrition ++
+          this.total ++
         }
       }
     }
@@ -110,6 +120,7 @@ export class TrackerComponent {
       for (let i = 11; i < 21; i++) {
         if(this.getOneItem(i)) {
           this.mobility ++
+          this.total ++
         }
       }
     }
@@ -118,6 +129,7 @@ export class TrackerComponent {
       for (let i = 21; i < 31; i++) {
         if(this.getOneItem(i)) {
           this.energy ++
+          this.total ++
         }
       }
     }
@@ -126,6 +138,7 @@ export class TrackerComponent {
       for (let i = 31; i < 41; i++) {
         if(this.getOneItem(i)) {
           this.waste ++
+          this.total ++
         }
       }
     }
@@ -134,6 +147,7 @@ export class TrackerComponent {
       for (let i = 41; i < 51; i++) {
         if(this.getOneItem(i)) {
           this.nature ++
+          this.total ++
         }
       }
     }
@@ -158,6 +172,7 @@ export class TrackerComponent {
       console.log(i + " das ist i")
       this.getDataFromLocal(i)
     }
+    this.typeRefresh()
     const script = document.createElement('script');
     script.src = 'https://www.gstatic.com/charts/loader.js';
     script.onload = () => this.drawChart();
