@@ -35,6 +35,11 @@
                                 @if (isHovering) {
                                     <div class="mouse-follower" [ngStyle]="{ left: mouseX + 'px', top: mouseY + 'px' }">
                                         {{langService.tasks[type].task[this.id].description}}
+                                        
+                                        <div class="punkt">
+                                            {{langService.content[21]}}
+                                            {{langService.tasks[type].task[this.id].points}}
+                                        </div>
                                     </div>
                                 }
                             </div>

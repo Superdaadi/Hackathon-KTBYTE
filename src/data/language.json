@@ -56,6 +56,9 @@
         },
         "überuns": {
             "text": "Über uns"
+        },
+        "punkte": {
+            "text": "Du bekommst so viele Punkte für diese Challenge:"
         }
         
     },
@@ -117,6 +120,9 @@
         },
         "überuns": {
             "text": "About us"
+        },
+        "punkte": {
+            "text": "You get that amount of points for this challenge:"
         }
     }
 }
