@@ -1,5 +1,6 @@
 .full {
     width: calc(100dvw - 4.8px);
+    box-shadow: 0px 0px 10px 2px black;
     background-color: var(--f4);
     display: flex;
     align-items: center;
