@@ -1,10 +1,12 @@
 .full {
     width: 100dvw;
+    box-shadow: 0px 0px 10px 2px black;
     background-color: var(--f2);
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 4rem;
+    margin-bottom: 20px;
 }
 
 .full div{
@@ -32,6 +34,7 @@
 
 .lang-btn {
     background-color: var(--f4);
+    box-shadow: 0px 0px 10px 2px black;
     color: var(--f1);
     height: 44px;
     width: 7rem;
