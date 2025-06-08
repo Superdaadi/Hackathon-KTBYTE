@@ -26,7 +26,38 @@
         },
         "daniel": {
             "text": "Daniel fühlt sich vor allem in der Natur zu Hause. Als begeisterter Wanderer und Bushcrafter setzt er sich intensiv mit ökologischen Themen auseinander und weiß, wie wichtig der bewusste Umgang mit unserer Umwelt ist."
+        },
+        "emission1": {
+            "text": "Ihre Emissionen:"
+        },
+        "emissionT": {
+            "text": "CO2-Emission berechnen"
+        },
+        "distance": {
+            "text": "Entfernung in km:"
+        },
+        "berechnen": {
+            "text": "Berechnen"
+        },
+        "kraftstoff": {
+            "text": "Kraftstoff:"
+        },
+        "benzin": {
+            "text": "Benzin"
+        },
+        "rechner": {
+            "text": "CO2-Rechner"
+        },
+        "impressum": {
+            "text": "Impressum"
+        },
+        "kontakt": {
+            "text": "Kontakt"
+        },
+        "überuns": {
+            "text": "Über uns"
         }
+        
     },
 
      "english": {
@@ -56,8 +87,36 @@
         },
         "daniel": {
             "text": "Daniel feels particularly at home in nature. As an enthusiastic hiker and bushcrafter, he deals intensively with ecological issues and knows how important it is to treat our environment with care."
+        },
+        "emission1": {
+            "text": "Your emissions:"
+        },
+        "emissionT": {
+            "text": "Calculate CO2 emissions"
+        },
+        "distance": {
+            "text": "Distance in km:"
+        },
+        "berechnen": {
+            "text": "Calculate"
+        },
+        "kraftstoff": {
+            "text": "Fuel type:"
+        },
+        "benzin": {
+            "text": "Gasoline"
+        },
+        "rechner": {
+            "text": "CO2-calculator"
+        },
+        "impressum": {
+            "text": "Imprint"
+        },
+        "kontakt": {
+            "text": "Contact us"
+        },
+        "überuns": {
+            "text": "About us"
         }
     }
-    
-
 }
