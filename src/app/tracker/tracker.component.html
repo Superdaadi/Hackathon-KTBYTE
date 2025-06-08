@@ -19,7 +19,7 @@
                                 <div class="taskText">
                                     {{task.id}} {{task.title}}
                                 </div>
-                                <div (click)="langService.saveToLocal(task.id)" #trackArea class="taskTickbox">
+                                <div (click)="tickBox(task.id)" #trackArea class="taskTickbox">
 
                                     @if (langService.getDataFromLocal(task.id) == "true") {
                                         <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" fill="#e3e3e3">
@@ -50,7 +50,7 @@
 
 
                 <div class="diagram">
-                    <app-chart class="chart"></app-chart>
+                    <div class="chart" id="donutchart"></div>
                 </div>
             </div>
         </div>
