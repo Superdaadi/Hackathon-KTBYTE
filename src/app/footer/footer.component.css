@@ -1,5 +1,5 @@
 .full {
-    width: 100dvw;
+    width: calc(100dvw - 4.8px);
     box-shadow: 0px 0px 10px 2px black;
     background-color: var(--f4);
     display: flex;
@@ -18,7 +18,7 @@
 }
 
 .left {
-    margin-left: 50px;
+    margin-left: 220px;
 }
 .right {
     margin-right: 30px;
@@ -65,6 +65,7 @@ a:hover {
 .logo img {
     margin-right: 4px;
     width: 70px;
+    cursor:  pointer;
 }
 
 

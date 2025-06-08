@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 import { LangService } from '../../service/lang.service';
 
 
@@ -11,7 +13,12 @@ import { LangService } from '../../service/lang.service';
 })
 export class FooterComponent {
   
-  constructor(public langService: LangService) {
-    }
-    
+  constructor(private router: Router, public langService: LangService) {
+  }
+
+  navigateHome() {
+    this.router.navigate(['/']);
+  }
+
+   
 }

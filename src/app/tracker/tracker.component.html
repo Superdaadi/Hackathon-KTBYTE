@@ -72,14 +72,16 @@
                 {{langService.content[22]}}
             </div>
             <div class="containerXp">
-                <div class="xpBar" [ngStyle]="{ width: xpWidth + '%'}">
-                    <p>{{xpWidth}}%</p>
+                <div class="xpBar" [ngStyle]="{ width: totalCalc + '%'}">
+                    <p>{{totalCalc}}%</p>
                 </div>
             </div>            
             <div class="container">
                 <div class="overviewContainer">
                     <div class="overviewText">
                         {{langService.content[23]}}
+                        {{total}}
+                        {{totalCalc}}
                     </div>
                     
                 </div>
