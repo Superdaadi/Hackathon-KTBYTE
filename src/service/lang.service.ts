@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { AllTask } from './lang.model';
+import { AllTask, TaskID } from './lang.model';
 import taskDE from '../data/task-DE.json'
 import taskEN from '../data/task-EN.json'
 import data from '../data/language.json';
@@ -16,15 +16,48 @@ export class LangService {
   public content: string[] = []
   public lang: string = 'english'
 
+
   public tasks: AllTask[]
+
+  public taskId: TaskID[] = []
 
 
   constructor() {
     this.tasks = taskEN.english
 
+
+
     this.checkLang();
 
   }
+
+  public getDataFromLocal(key: number): string {
+    const valueFromLocal = localStorage.getItem(key.toString());
+    if (valueFromLocal)
+      return valueFromLocal
+    else
+      return "false"
+  }
+  
+  public saveToLocal(id: number) {
+    const key = id.toString();
+    const valueFromLocal = localStorage.getItem(key);
+    console.log(valueFromLocal);
+
+    if (valueFromLocal === "true") {
+      localStorage.setItem(key, "false");
+    } else {
+      localStorage.setItem(key, "true");
+    }
+  }
+
+
+
+
+
+
+
+
 
   public checkLang() {
     if (this.lang == 'german') {
