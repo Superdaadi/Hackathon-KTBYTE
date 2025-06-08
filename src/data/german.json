@@ -1,0 +1,12 @@
+{
+    "german": {
+        "goal": {
+            "heading": "Unser Ziel:",
+            "goalText": "Unser Ziel ist es, Menschen auf einfache und motivierende Weise zu einem nachhaltigeren Lebensstil zu inspirieren. Mit unserem Projekt wollen wir zeigen, dass Umweltschutz nicht kompliziert oder belehrend sein muss - sondern im Alltag beginnt, Spaß machen kann und durch kleine Schritte große Wirkung entfalten kann. Wir haben eine Anwendung entwickelt, die Nutzer*innen täglich mit konkreten Challenges, praktischen Tipps und motivierendem Feedback dabei unterstützt, ihren ökologischen Fußabdruck zu verkleinern.Ob durch bewussteren Konsum, sparsamen Energieeinsatz oder nachhaltige Mobilität - wir möchten nachhaltiges Handeln greifbar, verständlich und alltagstauglich machen. /nDabei ist uns wichtig: Niemand muss perfekt sein. Es geht nicht darum, alles richtig zu machen, sondern überhaupt anzufangen - mit kleinen, machbaren Veränderungen, die sich im Laufe der Zeit summieren. Unser Beitrag zum KTBYTE Hackathon soll nicht nur eine technische Lösung sein, sondern ein Impuls: für mehr Bewusstsein, mehr Gemeinschaft und eine lebenswertere Zukunft."
+        },
+        "funktion": {
+            "heading": "Unser Ziel:",
+            "text": ""
+        }
+    }
+}
