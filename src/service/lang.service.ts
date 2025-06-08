@@ -74,6 +74,16 @@ export class LangService {
       this.content[8] = data.german.about.text
       this.content[9] = data.german.david.text
       this.content[10] = data.german.daniel.text
+      this.content[11] = data.german.emission1.text
+      this.content[12] = data.german.emissionT.text
+      this.content[13] = data.german.distance.text
+      this.content[14] = data.german.berechnen.text
+      this.content[15] = data.german.kraftstoff.text
+      this.content[16] = data.german.benzin.text
+      this.content[17] = data.german.rechner.text
+      this.content[18] = data.german.impressum.text
+      this.content[19] = data.german.kontakt.text
+      this.content[20] = data.german.überuns.text
     }
 
     else if (this.lang == 'english') {
@@ -90,6 +100,16 @@ export class LangService {
       this.content[8] = data.english.about.text
       this.content[9] = data.english.david.text
       this.content[10] = data.english.daniel.text
+      this.content[11] = data.english.emission1.text
+      this.content[12] = data.english.emissionT.text
+      this.content[13] = data.english.distance.text
+      this.content[14] = data.english.berechnen.text
+      this.content[15] = data.english.kraftstoff.text
+      this.content[16] = data.english.benzin.text
+      this.content[17] = data.english.rechner.text
+      this.content[18] = data.english.impressum.text
+      this.content[19] = data.english.kontakt.text
+      this.content[20] = data.english.überuns.text
     }
 
   }

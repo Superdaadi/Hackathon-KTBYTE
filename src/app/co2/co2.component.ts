@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+import { LangService } from '../../service/lang.service';
+
 @Component({
   selector: 'app-co2',
   standalone: true,
@@ -14,8 +16,7 @@ export class CO2Component {
   distance: number = 0;
   result: number = 0;
 
-  constructor() {
-    
+  constructor(public langService: LangService) {
   }
 
   calculateCO2Emission() {
