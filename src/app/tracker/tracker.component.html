@@ -17,7 +17,7 @@
                         @for (task of langService.tasks[type].task; track $index) {
                             <div class="taskContainer" (mouseenter)="mouseEnter(task.id)" (mouseleave)="mouseLeave()">
                                 <div class="taskText">
-                                    {{task.id}} {{task.title}}
+                                    {{task.title}}
                                 </div>
                                 <div (click)="tickBox(task.id)" #trackArea class="taskTickbox">
 
@@ -25,6 +25,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" fill="#e3e3e3">
                                             <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/>
                                         </svg>
+                                        <div class="gray"></div>
                                     }
                                 </div>
                                 <div class="nagel beispielNagelLO"></div>
@@ -32,16 +33,22 @@
                                 <div class="nagel beispielNagelRO"></div>
                                 <div class="nagel beispielNagelRU"></div>
                                 
-                                @if (isHovering) {
-                                    <div class="mouse-follower" [ngStyle]="{ left: mouseX + 'px', top: mouseY + 'px' }">
-                                        {{langService.tasks[type].task[this.id].description}}
-                                        
-                                        <div class="punkt">
-                                            {{langService.content[21]}}
-                                            {{langService.tasks[type].task[this.id].points}}
-                                        </div>
-                                    </div>
+                            </div>
+                        }
+                        @if (isHovering) {
+                            <div class="mouse-follower" [ngStyle]="{ left: mouseX + 'px', top: mouseY + 'px' }">
+
+                                @if(this.id < 10) {
+                                    {{langService.tasks[0].task[this.id].description}}
                                 }
+                                @else {
+                                    {{langService.tasks[type].task[theValueOfTheValues].description}}
+                                }
+
+                                <!-- <div class="punkt">
+                                    {{langService.content[21]}}
+                                    {{langService.tasks[type].task[this.id].points}}
+                                </div> -->
                             </div>
                         }
                     </div>
