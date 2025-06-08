@@ -13,27 +13,26 @@
                             </div>
                         }
                     </div>
-
-                    @for (task of tasks[type].tasks; track $index) {
-                        <div class="beispiel">
-                            <div class="container">
-                                <div class="beispielText">
+                    <div class="taskList">
+                        @for (task of tasks[type].tasks; track $index) {
+                            <div class="taskContainer">
+                                <div class="taskText">
                                     {{task}}
                                 </div>
-                                <div class="beispielTickbox"></div>
+                                <div class="taskTickbox"></div>
                                 <div class="nagel beispielNagelLO"></div>
                                 <div class="nagel beispielNagelLU"></div>
                                 <div class="nagel beispielNagelRO"></div>
                                 <div class="nagel beispielNagelRU"></div>
                             </div>
-                        </div>
-                    }
+                        }
+                    </div>
 
                 </div>
 
 
                 <div class="diagram">
-                    <app-chart></app-chart>
+                    <app-chart class="chart"></app-chart>
                 </div>
             </div>
         </div>
@@ -58,14 +57,14 @@
             </div>
             <div class="grid1">
                 <div class="grid2">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-                <div>7</div>
-                <div>8</div>
+                    <div class="field">1</div>
+                    <div class="field">2</div>
+                    <div class="field">3</div>
+                    <div class="field">4</div>
+                    <div class="field">5</div>
+                    <div class="field">6</div>
+                    <div class="field">7</div>
+                    <div class="field">8</div>
                 </div>
             </div>
         </div>

@@ -56,11 +56,13 @@
 .container {
     width: 100%;
     display: flex;
+    height: 28rem;
 }
 
 .tasks {
     width: 60%;
     border-right: 2px solid black;
+    height: 100%;
 }
 
 .select-cath {
@@ -81,61 +83,69 @@
     text-decoration: underline;
 }
 
-
-
-.beispiel {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin-top: 20px;
-    background-color: var(--f3);
-    border-radius: 30px;
+.taskList {
+    height: calc(100% - 34px);
+    overflow-y: scroll;
 }
-.container {
+
+
+
+
+
+
+
+.taskContainer {
+    position: relative;
     display: flex;
-    /* background-color:var(--f3) ; */
-    color: var(f1);
     align-items: center;
     justify-content: space-around;
-    text-align: center;
-    padding: 20px;
-    border-radius: 30px;
-    flex-direction: row;
-    position: relative;
+    margin: 12px;
+    background-color: var(--f3);
+    border-radius: 8px;
+    padding: 8px;
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 12px 4px rgba(0, 0, 0, 0.3);
 }
-.beispielText {
-    font-size: 26px;
+
+.taskText {
+    width: 80%;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
 }
-.beispielTickbox{
+.taskTickbox{
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 12px 4px rgba(255, 255, 255, 0.15);
     background-color: var(--f4);
     width: 40px;
     height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
 .nagel {
     position: absolute;
     background-color: var(--f4);
-    height: 8px;
-    width: 8px;
-    transform:rotate(45deg);
-    
+    height: 6px;
+    width: 6px;
+    transform:rotate(45deg); 
 }
 .beispielNagelLO {
-    left: 20px;
-    top: 15px;
+    left: 10px;
+    top: 10px;
 }
 .beispielNagelLU {
-    left: 20px;
-    bottom: 15px;
+    left: 10px;
+    bottom: 10px;
 }
 .beispielNagelRO {
-    right: 20px;
-    top: 15px;
+    right: 10px;
+    top: 10px;
 }
 .beispielNagelRU {
-    right: 20px;
-    bottom: 15px;
+    right: 10px;
+    bottom: 10px;
 }
 
 
@@ -181,5 +191,9 @@
   padding: 10px;
   font-size: 30px;
   text-align: center;
-
 }
+.grid2 > div:hover {
+  background-color: var(--f1);
+}
+
+
