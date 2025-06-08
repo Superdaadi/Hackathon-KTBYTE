@@ -183,6 +183,30 @@
     gap: 20px;
 }
 
+
+.mouse-follower {
+  position: fixed;
+  width: 360px;
+  height: 160px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.91);
+  border: 1px solid black;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.219);
+  pointer-events: none;
+  transform: translate(2%, 2%);
+  transition: left 0.03s linear, top 0.03s linear;
+  z-index: 99;
+}
+
+
+
+
+
+
+
+
+
+
 .grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
