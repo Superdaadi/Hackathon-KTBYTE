@@ -84,6 +84,7 @@ export class LangService {
       this.content[18] = data.german.impressum.text
       this.content[19] = data.german.kontakt.text
       this.content[20] = data.german.überuns.text
+      this.content[21] = data.german.punkte.text
     }
 
     else if (this.lang == 'english') {
@@ -110,6 +111,7 @@ export class LangService {
       this.content[18] = data.english.impressum.text
       this.content[19] = data.english.kontakt.text
       this.content[20] = data.english.überuns.text
+      this.content[21] = data.english.punkte.text
     }
 
   }

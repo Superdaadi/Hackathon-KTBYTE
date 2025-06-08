@@ -186,6 +186,9 @@
 
 .mouse-follower {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 360px;
   height: 160px;
   border-radius: 20px;
@@ -196,7 +199,12 @@
   transform: translate(2%, 2%);
   transition: left 0.03s linear, top 0.03s linear;
   z-index: 99;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
 }
+
 
 
 

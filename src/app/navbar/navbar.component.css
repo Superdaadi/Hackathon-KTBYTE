@@ -13,7 +13,9 @@
 
 .logoImg img {
     width: 45px;
+    cursor: pointer;
 }
+
 
 .navigation {
     display: flex;
