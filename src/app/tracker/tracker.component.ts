@@ -11,11 +11,13 @@ export class TrackerComponent {
 
 
   protected tasks = [
-    { heading: 'Energie', tasks: ['Stelle deien Monitor auf Energiesparmodus', 'Verzichte heute auf den Trockner'] },
+    { heading: 'Energie', tasks: ['Stelle deien Monitor auf Energiesparmodus', 'Verzichte heute auf den Trockner', 'Lüfte heute nur kurz stoßweise', 'Verbringe heute eine Stunde ganz ohne Strom', 'Überprüfe heute deine größten Stromverbraucher im Haushalt'] },
     { heading: 'Mobilität', tasks: ['Fahre heute alle Wege unter 3km mit dem Fahrrad', 'Nutze heute den ÖPNV anstelle des Autos', 'Plane für nächste woche eine Fahrgemeinschaft'] },
-    { heading: 'Konsum', tasks: ['Kaufe heute nichts, dass du nicht wirklich brauchst', 'Verzichte heute auf alle Einwegproduckte'] },
-    { heading: 'Wasser', tasks: ['Dusche heute maximal 3 Minuten lang', 'Starte die Waschmaschine nur vollbeladen'] },
-    { heading: 'Clean-up', tasks: ['Sammle heute 5 Stücke Müll in der Natur auf', 'Sortiere deine Altbatterien und Elektroschrott - bringe sie zur Sammelstelle'] },
+    { heading: 'Konsum & Clean-up', tasks: ['Kaufe heute nichts, dass du nicht wirklich brauchst', 'Verzichte heute auf alle Einwegproduckte', 'Repariere heute ein defektes Teil, statt es zu ersetzen', 'Bring heute Altglas, Papier oder Plastik zum Recycling', 'Schau heute in einen Secondhand-Shop oder Online-Alternativen', 'Teile heute ein Produkt mit jemandem, statt es doppelt zu kaufen', 'Starte heute einen No-Waste-Tag: Produziere so wenig Müll wie möglich'] },
+    { heading: 'Wasser', tasks: ['Dusche heute maximal 3 Minuten lang', 'Starte die Waschmaschine nur vollbeladen', 'Nutze beim Zähneputzen kein laufendes Wasser', 'Sammle heute Wasser beim Gemüsewaschen und nutze es für Pflanzen', 'Kontrolliere heute alle Wasserhähne auf Tropfen oder Lecks', 'Gieße deine Pflanzen heute mit Regenwasser oder Restwasser'] },
+    { heading: 'Natur & Achtsamkeit', tasks: ['Sammle heute 5 Stücke Müll in der Natur auf', 'Verbringe heute mindestens 45 Minuten in der Natur', 'Pflanze heute etwas - einen Samen, eine Blume oder Kräuter', 'Nimm heute bewusst keine Musik mit nach draußen - höre nur die Natur', 'Lass heute dein Handy zu Hause, wenn du rausgehst', 'Recherchiere heute einen bedrohten Lebensraum in deiner Region', 'Lade heute jemanden zu einem Spaziergang in der Natur ein'] },
+    { heading:'Ernährung',task: ['Iss heute komplett vegetarisch','Koche heute mit ausschließlich regionalen Zutaten', 'Verzichte heute auf alle Milchprodukte', 'Verwerte heute Reste aus deinem Kühlschrank', 'Trinke heute nur Leitungswasser', 'Nimm heute dein Essen in einer eigenen Box mit', 'Kaufe heute kein verpacktes Obst oder Gemüse', 'Koche heute ohne Fertigprodukte oder Tiefkühlgerichte']},
+    
   ]
 
   protected type: number = 0
