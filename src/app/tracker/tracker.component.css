@@ -137,3 +137,49 @@
     right: 20px;
     bottom: 15px;
 }
+
+
+.overview {
+    background-color: var(--f1);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.overviewBorder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1480px;
+    height: 100%;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-cath2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    gap: 20px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--f1);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.grid2 > div {
+  background-color: var(--f1);
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
