@@ -18,11 +18,8 @@ export class TrackerComponent {
   protected type: number = 0
 
 
-
-
   constructor(public langService: LangService) {
   }
-
 
   protected setType(type: number) {
     this.type = type

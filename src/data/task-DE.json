@@ -4,60 +4,70 @@
       "cathegory": "Ernährung",
       "task": [
         {
+          "id": 1,
           "title": "Veggie-Tag",
           "description": "Iss heute ausschließlich vegetarisch.",
           "co2_saving_kg": 2.0,
           "points": 15
         },
         {
+          "id": 2,
           "title": "Regio-Check",
           "description": "Kaufe heute nur regionale Lebensmittel.",
           "co2_saving_kg": 1.0,
           "points": 10
         },
         {
+          "id": 3,
           "title": "Tierfrei genießen",
           "description": "Vermeide heute alle tierischen Produkte.",
           "co2_saving_kg": 3.0,
           "points": 20
         },
         {
+          "id": 4,
           "title": "Reste retten",
           "description": "Koche heute nur mit vorhandenen Resten.",
           "co2_saving_kg": 0.5,
           "points": 10
         },
         {
+          "id": 5,
           "title": "Wasser marsch!",
           "description": "Trink heute ausschließlich Leitungswasser.",
           "co2_saving_kg": 0.2,
           "points": 5
         },
         {
+          "id": 6,
           "title": "Zero Packaging",
           "description": "Kaufe heute unverpacktes Obst & Gemüse.",
           "co2_saving_kg": 0.3,
           "points": 5
         },
         {
+          "id": 7,
           "title": "Snack nachhaltig",
           "description": "Verzichte heute auf verpackte Snacks.",
           "co2_saving_kg": 0.3,
           "points": 5
         },
         {
+          "id": 8,
           "title": "Bio-Tag",
           "description": "Iss heute mindestens eine komplette Bio-Mahlzeit.",
           "co2_saving_kg": 0.5,
           "points": 10
         },
         {
+          "id": 9,
           "title": "Plan it!",
           "description": "Plane heute deine Mahlzeiten für die Woche.",
           "co2_saving_kg": 1.0,
           "points": 10
         },
         {
+          "id": 10,
           "title": "Essen mit Sinn",
           "description": "Erkläre einer Person, warum nachhaltige Ernährung wichtig ist.",
           "co2_saving_kg": 0.0,
@@ -69,60 +79,70 @@
       "cathegory": "Mobilität",
       "task": [
         {
+          "id": 11,
           "title": "Kurzstrecken-Killer",
           "description": "Geh heute alle Wege unter 3km zu Fuß.",
           "co2_saving_kg": 0.8,
           "points": 15
         },
         {
+          "id": 12,
           "title": "Bike-Mode",
           "description": "Fahr heute alles mit dem Fahrrad.",
           "co2_saving_kg": 2.0,
           "points": 20
         },
         {
+          "id": 13,
           "title": "Auto-Pause",
           "description": "Nutze heute kein Auto.",
           "co2_saving_kg": 3.0,
           "points": 20
         },
         {
+          "id": 14,
           "title": "ÖPNV-Check",
           "description": "Fahr heute mit Bus oder Bahn.",
           "co2_saving_kg": 1.5,
           "points": 15
         },
         {
+          "id": 15,
           "title": "Mitfahren statt allein",
           "description": "Organisiere eine Fahrgemeinschaft.",
           "co2_saving_kg": 2.0,
           "points": 15
         },
         {
+          "id": 16,
           "title": "Multistop",
           "description": "Kombiniere heute mehrere Erledigungen auf einem Weg.",
           "co2_saving_kg": 0.5,
           "points": 5
         },
         {
+          "id": 17,
           "title": "Entdeckung zu Fuß",
           "description": "Erkunde heute ein neues Ziel zu Fuß statt mit Fahrzeug.",
           "co2_saving_kg": 0.3,
           "points": 5
         },
         {
+          "id": 18,
           "title": "CO₂-Mobilitätscheck",
           "description": "Berechne heute deinen Mobilitäts-Fußabdruck.",
           "co2_saving_kg": 0.0,
           "points": 10
         },
         {
+          "id": 19,
           "title": "Zukunftsroute",
           "description": "Plane einen umweltfreundlicheren Arbeitsweg.",
           "co2_saving_kg": 1.0,
           "points": 10
         },
         {
+          "id": 20,
           "title": "Sharing is caring",
           "description": "Teile heute einen Tipp zu nachhaltiger Mobilität online oder mit Freunden.",
           "co2_saving_kg": 0.0,
@@ -134,60 +154,70 @@
       "cathegory": "Energie",
       "task": [
         {
+          "id": 21,
           "title": "Kurz-Duschen",
           "description": "Dusch heute maximal 3 Minuten.",
           "co2_saving_kg": 1.5,
           "points": 10
         },
         {
+          "id": 22,
           "title": "Standby? Aus!",
           "description": "Schalte alle Geräte komplett aus.",
           "co2_saving_kg": 0.3,
           "points": 10
         },
         {
+          "id": 23,
           "title": "Kochen mit Deckel",
           "description": "Koche heute alle Gerichte mit Deckel.",
           "co2_saving_kg": 0.2,
           "points": 5
         },
         {
+          "id": 24,
           "title": "30 Grad reichen",
           "description": "Wasch heute bei max. 30 °C.",
           "co2_saving_kg": 0.5,
           "points": 10
         },
         {
+          "id": 25,
           "title": "Licht aus!",
           "description": "Nutze heute tagsüber kein künstliches Licht.",
           "co2_saving_kg": 0.2,
           "points": 5
         },
         {
+          "id": 26,
           "title": "Lade dich nicht leer",
           "description": "Ziehe alle Ladegeräte nach Gebrauch aus.",
           "co2_saving_kg": 0.2,
           "points": 5
         },
         {
+          "id": 27,
           "title": "Offline-Hour",
           "description": "Eine Stunde ohne Stromverbrauch.",
           "co2_saving_kg": 0.2,
           "points": 5
         },
         {
+          "id": 28,
           "title": "Stoßlüften",
           "description": "Lüfte heute bewusst kurz und intensiv.",
           "co2_saving_kg": 0.5,
           "points": 10
         },
         {
+          "id": 29,
           "title": "Energie-Scanner",
           "description": "Analysiere heute deinen größten Stromfresser.",
           "co2_saving_kg": 0.0,
           "points": 10
         },
         {
+          "id": 30,
           "title": "Trockner-Verzicht",
           "description": "Lass deine Wäsche heute lufttrocknen.",
           "co2_saving_kg": 1.2,
@@ -199,60 +229,70 @@
       "cathegory": "Energie",
       "task": [
         {
+          "id": 31,
           "title": "Kaufpause",
           "description": "Kaufe heute bewusst nichts.",
           "co2_saving_kg": 1.5,
           "points": 15
         },
         {
+          "id": 32,
           "title": "Reparatur-Tag",
           "description": "Repariere heute etwas statt es wegzuwerfen.",
           "co2_saving_kg": 2.0,
           "points": 20
         },
         {
+          "id": 33,
           "title": "Plastikfrei",
           "description": "Vermeide heute alle Einwegprodukte.",
           "co2_saving_kg": 0.5,
           "points": 10
         },
         {
+          "id": 34,
           "title": "Recycling-Runde",
           "description": "Bringe Altglas, Papier oder Batterien weg.",
           "co2_saving_kg": 0.3,
           "points": 5
         },
         {
+          "id": 35,
           "title": "Tüte dabei",
           "description": "Nutze deine eigene Einkaufstasche.",
           "co2_saving_kg": 0.1,
           "points": 5
         },
         {
+          "id": 36,
           "title": "Secondhand entdecken",
           "description": "Schau heute bei einem Secondhand-Anbieter vorbei.",
           "co2_saving_kg": 2.0,
           "points": 15
         },
         {
+          "id": 37,
           "title": "Teilen statt kaufen",
           "description": "Leih oder teile heute einen Gegenstand.",
           "co2_saving_kg": 1.0,
           "points": 10
         },
         {
+          "id": 38,
           "title": "Digital Detox Shopping",
           "description": "Kein Online-Shopping heute!",
           "co2_saving_kg": 0.5,
           "points": 10
         },
         {
+          "id": 39,
           "title": "Zero Waste Tag",
           "description": "Versuche, heute keinen Müll zu erzeugen.",
           "co2_saving_kg": 0.5,
           "points": 15
         },
         {
+          "id": 40,
           "title": "Lieblingsteil posten",
           "description": "Zeige ein nachhaltiges Produkt, das du schon lange nutzt.",
           "co2_saving_kg": 0.0,
@@ -264,60 +304,70 @@
       "cathegory": "Natur&Achtsamkeit",
       "task": [
         {
+          "id": 41,
           "title": "15 Minuten Grün",
           "description": "Verbringe heute 15 Minuten in der Natur.",
           "co2_saving_kg": 0.0,
           "points": 5
         },
         {
+          "id": 42,
           "title": "Müllsammeln",
           "description": "Sammle draußen 5 Stücke Müll.",
           "co2_saving_kg": 0.2,
           "points": 10
         },
         {
+          "id": 43,
           "title": "Pflanzenzeit",
           "description": "Pflanze heute etwas – Samen, Blume, Kräuter.",
           "co2_saving_kg": 0.5,
           "points": 10
         },
         {
+          "id": 44,
           "title": "Natur hören",
           "description": "Geh heute ohne Musik oder Handy spazieren.",
           "co2_saving_kg": 0.0,
           "points": 5
         },
         {
+          "id": 45,
           "title": "Schreibe auf",
           "description": "Notiere 3 Dinge, die du an der Natur schätzt.",
           "co2_saving_kg": 0.0,
           "points": 5
         },
         {
+          "id": 46,
           "title": "Offline raus",
           "description": "Geh eine Stunde raus – ohne Handy.",
           "co2_saving_kg": 0.1,
           "points": 5
         },
         {
+          "id": 47,
           "title": "Natur beobachten",
           "description": "Schau dir heute bewusst Tiere oder Pflanzen an.",
           "co2_saving_kg": 0.0,
           "points": 5
         },
         {
+          "id": 48,
           "title": "Wissen vertiefen",
           "description": "Informiere dich über ein bedrohtes Ökosystem.",
           "co2_saving_kg": 0.0,
           "points": 5
         },
         {
+          "id": 49,
           "title": "Meditation im Grünen",
           "description": "Meditiere 5 Minuten draußen.",
           "co2_saving_kg": 0.0,
           "points": 5
         },
         {
+          "id": 50,
           "title": "Gemeinsam draußen",
           "description": "Lade jemanden zu einem Natur-Spaziergang ein.",
           "co2_saving_kg": 0.0,
@@ -327,4 +377,3 @@
     }
   ]
 }
-
