@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Route } from '@angular/router';
+import { Router } from '@angular/router';
+import { LangService } from '../../service/lang.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,6 +10,16 @@ import { Route } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+
   
+  constructor(private router: Router, public langService: LangService) {
+  }
+
+  changeLang(lang: string) {
+    this.langService.lang = lang;
+    this.langService.checkLang();
+
+  }
+
 
 }
