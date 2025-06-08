@@ -5,13 +5,24 @@
         </div>
     </div>
     <div class="navigation">
-        <div class="nav-el">Home</div>
+        <div class="nav-el"><a href="#">Home</a></div>
         <div class="nav-el"><a href="/tracker">Tracker</a></div>
-        <div class="nav-el"><a href="/co2">Fact of the day</a></div>
+        <div class="nav-el"><a href="/co2">C02 Rechner</a></div>
     </div>
-    <div class="login">
-        <div class="login-btn">
-            LOGIN
+    @if (langService.lang =="german") {
+        <div (click)='changeLang("english")' class="lang">
+            <div class="lang-btn">
+                <img src="assets/flag/DE.png" alt="">
+                DE
+            </div>
         </div>
-    </div>
-</div>
+    }
+    @else {
+        <div (click)='changeLang("german")' class="lang">
+            <div class="lang-btn">
+                <img src="assets/flag/US-UK.png" alt="">
+                EN
+            </div>
+        </div>
+    }
+</div>  

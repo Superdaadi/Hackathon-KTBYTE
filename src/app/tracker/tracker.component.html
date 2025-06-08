@@ -7,17 +7,17 @@
             <div class="container">
                 <div class="tasks">
                     <div class="select-cath">
-                        @for (task of tasks; track $index) {
+                        @for (taskGroup of langService.tasks; track $index) {
                             <div (click)="setType($index)" class="cathegory">
-                                {{task.heading}}
+                                {{taskGroup.cathegory}}
                             </div>
                         }
                     </div>
                     <div class="taskList">
-                        @for (task of tasks[type].tasks; track $index) {
+                        @for (task of langService.tasks[type].task; track $index) {
                             <div class="taskContainer">
                                 <div class="taskText">
-                                    {{task}}
+                                    {{task.title}}
                                 </div>
                                 <div class="taskTickbox"></div>
                                 <div class="nagel beispielNagelLO"></div>
