@@ -1,37 +1,35 @@
-import { Component } from '@angular/core';
-import data from '../../data/language.json';
-import { Router, ActivatedRoute } from '@angular/router';
-import { LangService } from '../../service/lang.service';
+import { Injectable } from '@angular/core';
+
+import { AllTask } from './lang.model';
+import taskDE from '../data/task-DE.json'
+import taskEN from '../data/task-EN.json'
+import data from '../data/language.json';
 
 
 
-@Component({
-  selector: 'app-homepage',
-  standalone: true,
-  imports: [],
-  templateUrl: './homepage.component.html',
-  styleUrl: './homepage.component.css'
+@Injectable({
+  providedIn: 'root'
 })
-export class HomepageComponent {
 
-  protected content: string[] = []
-  protected lang: string = 'german';
+export class LangService {
 
-  constructor(private router: Router, private route: ActivatedRoute, public langService: LangService) {
+  public content: string[] = []
+  public lang: string = 'english'
 
-  }
+  public tasks: AllTask[]
 
 
-  ngOnInit() {
-    this.route.queryParams.subscribe(params => {
-      this.lang = params['lang'];
-    });
+  constructor() {
+    this.tasks = taskEN.english
 
-    this.checkLang()
+    this.checkLang();
+
   }
 
   public checkLang() {
     if (this.lang == 'german') {
+      this.tasks = taskDE.german
+
       this.content[0] = data.german.goal.heading
       this.content[1] = data.german.goal.text
       this.content[2] = data.german.funktion.heading
@@ -44,7 +42,10 @@ export class HomepageComponent {
       this.content[9] = data.german.david.text
       this.content[10] = data.german.daniel.text
     }
+
     else if (this.lang == 'english') {
+      this.tasks = taskEN.english
+
       this.content[0] = data.english.goal.heading
       this.content[1] = data.english.goal.text
       this.content[2] = data.english.funktion.heading
@@ -57,5 +58,9 @@ export class HomepageComponent {
       this.content[9] = data.english.david.text
       this.content[10] = data.english.daniel.text
     }
+
   }
+
+
+  
 }
