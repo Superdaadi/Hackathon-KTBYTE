@@ -59,6 +59,12 @@
         },
         "punkte": {
             "text": "Du bekommst so viele Punkte für diese Challenge:"
+        },
+        "übersicht": {
+            "text": "Übersicht"
+        },
+        "total": {
+            "text": "Insgesammt erledigte Challenges:"
         }
         
     },
@@ -123,6 +129,12 @@
         },
         "punkte": {
             "text": "You get that amount of points for this challenge:"
+        },
+        "übersicht": {
+            "text": "Overview"
+        },
+        "total": {
+            "text": "Challenges completed in total:"
         }
     }
 }
