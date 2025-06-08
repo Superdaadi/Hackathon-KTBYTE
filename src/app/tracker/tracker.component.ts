@@ -28,6 +28,7 @@ export class TrackerComponent {
     this.type = type
   }
 
+  
 
 
 }
