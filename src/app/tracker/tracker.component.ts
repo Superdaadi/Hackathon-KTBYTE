@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { ChartComponent } from '../chart/chart.component';
 
 @Component({
   selector: 'app-tracker',
   standalone: true,
-  imports: [],
+  imports: [ChartComponent],
   templateUrl: './tracker.component.html',
   styleUrl: './tracker.component.css'
 })
