@@ -1,6 +1,9 @@
 import { Component, HostListener, ElementRef, ViewChild } from '@angular/core';
 import { NgStyle } from '@angular/common';
 
+import { isPlatformBrowser } from '@angular/common';
+import { Inject, PLATFORM_ID } from '@angular/core';
+
 import { LangService } from '../../service/lang.service';
 
 declare var google: any;
@@ -49,11 +52,13 @@ export class TrackerComponent {
   @ViewChild('trackArea') trackArea!: ElementRef;
 
 
-  constructor(public langService: LangService) {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object, public langService: LangService) {
   }
 
   ngOnInit() {
-    this.loadGoogleCharts();
+    if (isPlatformBrowser(this.platformId)) {
+      this.loadGoogleCharts();
+    }
     this.setType(0)
   }
 
