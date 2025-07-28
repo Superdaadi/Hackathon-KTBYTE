@@ -14,7 +14,7 @@ import data from '../data/language.json';
 export class LangService {
 
   public content: string[] = []
-  public lang: string = 'english'
+  public lang: string = 'german'
 
 
   public tasks: AllTask[]
@@ -23,7 +23,7 @@ export class LangService {
 
 
   constructor() {
-    this.tasks = taskEN.english
+    this.tasks = taskDE.german
 
 
 
