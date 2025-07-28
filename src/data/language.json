@@ -65,6 +65,9 @@
         },
         "total": {
             "text": "Insgesammt erledigte Challenges:"
+        },
+        "In": {
+            "text": "dass entspricht:"
         }
         
     },
@@ -135,6 +138,9 @@
         },
         "total": {
             "text": "Challenges completed in total:"
+        },
+        "In": {
+            "text": "equal to:"
         }
     }
 }
